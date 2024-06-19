@@ -1,25 +1,27 @@
 #!/bin/bash
-    # List of core packages
-    local core_apps=(
-        "tmux"
-        "git"
-        "font-meslo-lg-nerd-font"
-    )
 
-    # List of cask packages
-    local cask_apps=(
-        "brave-browser"
-        "appcleaner"
-        "rectangle"
-        "wezterm"
-        "logi-options-plus"
-        "anki"
-        "telegram"
-        "calibre"
-        "obs"
-        "visual-studio-code"
-        "obsidian"
-    )
+# List of core packages
+local core_apps=(
+    "tmux"
+    "git"
+    "font-meslo-lg-nerd-font"
+)
+
+# List of cask packages
+local cask_apps=(
+    "brave-browser"
+    "appcleaner"
+    "rectangle"
+    "wezterm"
+    "logi-options-plus"
+    "anki"
+    "telegram"
+    "calibre"
+    "obs"
+    "visual-studio-code"
+    "obsidian"
+)
+
 # Define ANSI color codes
 RED='\033[0;31m'
 GREEN='\033[0;32m'
