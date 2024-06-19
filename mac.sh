@@ -76,9 +76,6 @@ main() {
         "tmux"
         "git"
         "font-meslo-lg-nerd-font"
-        # "starship"
-        "zsh-syntax-highlighting"
-        "zsh-autosuggestions"
     )
 
     # List of cask packages
