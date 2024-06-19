@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of core packages
-local core_apps=(
+core_apps=(
     "tmux"
     "git"
     "bash"
@@ -9,7 +9,7 @@ local core_apps=(
 )
 
 # List of cask packages
-local cask_apps=(
+cask_apps=(
     "brave-browser"
     "appcleaner"
     "rectangle"
