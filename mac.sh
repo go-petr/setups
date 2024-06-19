@@ -4,6 +4,7 @@
 local core_apps=(
     "tmux"
     "git"
+    "bash"
     "font-meslo-lg-nerd-font"
 )
 
