@@ -75,9 +75,8 @@ main() {
     local core_apps=(
         "tmux"
         "git"
-        "font-sf-pro"
         "font-meslo-lg-nerd-font"
-        "powerlevel10k"
+        # "starship"
         "zsh-syntax-highlighting"
         "zsh-autosuggestions"
     )
@@ -94,6 +93,7 @@ main() {
         "calibre"
         "obs"
         "visual-studio-code"
+        "obsidian"
     )
 
     print_yellow "Installing core packages..."
