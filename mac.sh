@@ -107,5 +107,5 @@ main() {
     done
 }
 
-# Run the main function
+
 main
