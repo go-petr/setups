@@ -70,7 +70,7 @@ replace_files() {
 # Array of file pairs
 file_pairs=(
     "./.zshrc:$HOME/.zshrc"
-    "./.tmux.conf:$HOME/.tmux.conf"
+    "./tmux.conf:$HOME/.config/tmux/tmux.conf"
     "./wezterm.lua:$HOME/.config/wezterm/wezterm.lua"
     "./myayudark.zsh-theme:$HOME/.oh-my-zsh/themes/myayudark.zsh-theme"
 )
