@@ -27,6 +27,6 @@ ENABLE_CORRECTION="true"
 plugins=(git tmux zsh-autosuggestions zsh-syntax-highlighting)
 
 ZSH_TMUX_AUTOSTART=true
-ZSH_THEME="strug"
+ZSH_THEME="myayudark"
 
 source $ZSH/oh-my-zsh.sh
