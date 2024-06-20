@@ -28,5 +28,6 @@ plugins=(git tmux zsh-autosuggestions zsh-syntax-highlighting)
 
 ZSH_TMUX_AUTOSTART=true
 ZSH_THEME="myayudark"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=249'
 
 source $ZSH/oh-my-zsh.sh
