@@ -10,6 +10,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/go-petr/setups/master/ma
 ## Install oh-my-zsh and plugins
 ```zsh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
@@ -17,6 +19,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```zsh
 curl -L https://github.com/go-petr/setups/raw/master/.zshrc -o $HOME/.zshrc
 curl -L https://github.com/go-petr/setups/raw/master/.tmux.conf -o $HOME/.tmux.conf
+mkdir -p $HOME/.config/wezterm
 curl -L https://github.com/go-petr/setups/raw/master/wezterm.lua -o $HOME/.config/wezterm/wezterm.lua
 curl -L https://github.com/go-petr/setups/raw/master/myayudark.zsh-theme -o $HOME/.oh-my-zsh/themes/myayudark.zsh-theme
 ```
