@@ -5,7 +5,7 @@ brew analytics off
 ```
 ## Install my key apps
 ```zsh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/go-petr/setups/master/mac.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/go-petr/.config/master/mac.sh)"
 ```
 ## Install oh-my-zsh and plugins
 ```zsh
@@ -17,14 +17,12 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 ## Copy configs
 ```zsh
-curl -L https://github.com/go-petr/setups/raw/master/.zshrc -o $HOME/.zshrc
-mkdir -p $HOME/.config/tmux
-curl -L https://github.com/go-petr/setups/raw/master/tmux.conf -o $HOME/config/tmux/tmux.conf
-mkdir -p $HOME/.config/wezterm
-curl -L https://github.com/go-petr/setups/raw/master/wezterm.lua -o $HOME/.config/wezterm/wezterm.lua
-curl -L https://github.com/go-petr/setups/raw/master/myayudark.zsh-theme -o $HOME/.oh-my-zsh/themes/myayudark.zsh-theme
+git clone https://github.com/go-petr/.config.git $HOME/.config
 ```
-Inside TMUX press prefix + I (capital i, as in **I**nstall) to fetch the plugins
+```zsh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+Inside TMUX press prefix + I (capital i, as in **I**nstall) to fetch the plugins or reload them
 
 ## MacOS settings
 1. Accessibility -> Display -> Reduce motion -> off
