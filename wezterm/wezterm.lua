@@ -16,8 +16,10 @@ config.color_scheme = 'ayu'
 config.window_close_confirmation = 'NeverPrompt'
 config.native_macos_fullscreen_mode = true
 
-config.window_background_image = os.getenv("HOME") .. '/setups/images/joe-desousa.jpg'
---config.window_background_image = os.getenv("HOME") .. '/setups/images/joe-desousa.jpg'
+--config.window_background_image = os.getenv("HOME") .. '/.config/images/joe-desousa.jpg'
+--config.window_background_image = os.getenv("HOME") .. '/.config/images/antonella-vilardo.jpg'
+config.window_background_image = os.getenv("HOME") .. '/.config/images/jasper-van-der-meij.jpg'
+
 config.window_background_image_hsb = {
   -- Darken the background image by reducing it to 1/3rd
   brightness = 0.05,
