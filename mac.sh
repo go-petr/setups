@@ -11,6 +11,7 @@ core_apps=(
 # List of cask packages
 cask_apps=(
     "brave-browser"
+    "rectangle"
     "appcleaner"
     "rectangle"
     "wezterm"
