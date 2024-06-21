@@ -1,0 +1,6 @@
+alt - q : open -a /Applications/Brave\ Browser.app
+alt - w : open -a /Applications/Telegram.app
+alt - e : open -a /Applications/Obsidian.app
+alt - a : open -a /Applications/Visual\ Studio\ Code.app
+alt - s : open -a /Applications/WezTerm.app
+
