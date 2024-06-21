@@ -14,6 +14,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/t
 ```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+curl -L https://github.com/go-petr/setups/raw/master/myayudark.zsh-theme -o $HOME/.oh-my-zsh/themes/myayudark.zsh-theme
 ```
 ## Copy configs
 ```zsh
