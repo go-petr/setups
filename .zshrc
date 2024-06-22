@@ -38,7 +38,7 @@ ZSH_TMUX_AUTOSTART=true
 ZSH_THEME="myayudark"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=249'
 
-# open fzf in tmux pane
+# open fzf in a tmux floating pane
 FZF_TMUX=1
 FZF_TMUX_OPTS='-p'
 

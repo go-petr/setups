@@ -3,8 +3,12 @@
 # List of core packages
 core_apps=(
     "tmux"
+    "jq"
+    "yq"
+    "gnu-sed"
     "git"
     "fzf"
+    "kubectl"
     "koekeishiya/formulae/skhd"
     "font-meslo-lg-nerd-font"
 )
