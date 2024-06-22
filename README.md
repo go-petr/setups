@@ -28,7 +28,13 @@ curl -L https://github.com/go-petr/setups/raw/master/myayudark.zsh-theme -o $HOM
 rm $HOME/.zshrc
 ln -s $HOME/.config/.zshrc $HOME/.zshrc
 ```
+
+## Install manually
+1. [V2Box - V2ray Client - App Store - Apple](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)
+
 ## MacOS settings
 1. Accessibility -> Display -> Reduce motion -> off
 2. Desktop & Dock -> Mission Control -> Automatically rearrange Spaces on most recent use -> off
-3. 
+3. Finder > View > Show Path Bar
+4. Keyboard > Input Sources > add Unicode Hex Input
+
