@@ -4,6 +4,7 @@
 core_apps=(
     "tmux"
     "git"
+    "fzf"
     "koekeishiya/formulae/skhd"
     "font-meslo-lg-nerd-font"
 )
