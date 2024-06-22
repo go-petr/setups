@@ -25,6 +25,7 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
+    kubectl
     fzf
     git
     git-auto-fetch
@@ -36,5 +37,9 @@ plugins=(
 ZSH_TMUX_AUTOSTART=true
 ZSH_THEME="myayudark"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=249'
+
+# open fzf in tmux pane
+FZF_TMUX=1
+FZF_TMUX_OPTS='-p'
 
 source $ZSH/oh-my-zsh.sh
