@@ -21,7 +21,6 @@ cask_apps=(
     "rectangle"
     "wezterm"
     "logi-options-plus"
-    "anki"
     "telegram"
     "calibre"
     "obs"
