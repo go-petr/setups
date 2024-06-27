@@ -8,6 +8,7 @@ core_apps=(
     "gnu-sed"
     "git"
     "fzf"
+    "starship"
     "kubectl"
     "koekeishiya/formulae/skhd"
     "font-meslo-lg-nerd-font"
