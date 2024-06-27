@@ -24,6 +24,7 @@ cask_apps=(
     "telegram"
     "calibre"
     "obs"
+    "anki"
     "visual-studio-code"
     "obsidian"
 )
