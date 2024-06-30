@@ -11,8 +11,8 @@ config.window_padding = {
   bottom = '0cell',
 }
 
-config.initial_cols = 170
-config.initial_rows = 70
+config.initial_cols = 200
+config.initial_rows = 100
 
 config.font = wezterm.font("MesloLGS Nerd Font Mono")
 config.font_size = 16
