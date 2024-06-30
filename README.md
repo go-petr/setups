@@ -32,6 +32,9 @@ brew analytics off
 ```zsh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/go-petr/.config/master/mac.sh)"
 ```
+```zsh
+skhd --start-service
+```
 #### Install apps manually
 1. [V2Box - V2ray Client - App Store - Apple](https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690)
 
